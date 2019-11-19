@@ -1,0 +1,40 @@
+
+<div class="container">
+    <table class="table">
+        <thead>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Price</th>
+        <th>Stock</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of outres">
+                <td>{{p.id}}</td>
+                <td>{{p.title}}</td>
+                <td>{{p.price}}</td>
+                <td>{{p.stock}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="container">
+    <table class="table table-border">
+        <thead>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Price</th>
+        <th>body</th>
+        
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of data">
+                <td>{{p.userId}}</td>
+                <td>{{p.id}}</td>
+                <td>{{p.title}}</td>
+                <td>{{p.body}}</td>
+               
+            </tr>
+        </tbody>
+    </table>
+</div>
